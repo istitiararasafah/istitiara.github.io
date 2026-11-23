@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333333;
+    line-height: 1.6;
+}
+header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 0.9rem;
+    color: #bdc3c7;
+}
+
+nav {
+    background-color: #34495e;
+    padding: 15px 10px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #1abc9c;
+    border-radius: 4px;
+}
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #1abc9c;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+/* Profil Foto */
+.foto-profil {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.foto-profil img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #1abc9c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 10px 8px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+table td:first-child {
+    font-weight: bold;
+    color: #2c3e50;
+    width: 35%;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.social-links a {
+    color: #1abc9c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2c3e50;
+    color: #ffffff;
+    font-size: 0.85rem;
+    margin-top: 20px;
+}
